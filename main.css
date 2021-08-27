@@ -1,0 +1,11 @@
+body {
+  margin: 0;
+}
+
+.songImg img {
+  width: 70%;
+  height: 15em;
+  margin-top: 5em;
+  margin-left: 1em;
+}
+/*# sourceMappingURL=main.css.map */
