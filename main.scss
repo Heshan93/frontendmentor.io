@@ -1,7 +1,7 @@
 
 body{
     margin-left: 0;
-    background: rgb(170, 203, 241);
+    background: #dee2e6;
 
 }
 
@@ -13,6 +13,9 @@ margin-left: 2em;
 height: 35em;
 background: white;
 border-radius: 1em;
+
+-webkit-box-shadow: inset -1px 3px 8px 5px #464444, 2px 5px 16px 0px #1d3149, 0px 1px 27px 17px rgba(0,0,0,0.61); 
+box-shadow: inset -1px 3px 8px 5px #1a1818, 2px 5px 16px 0px #061b33, 0px 1px 27px 17px rgba(0,0,0,0.61);
 
 }
 
@@ -26,7 +29,7 @@ border-radius: 1em;
  
 .music-icon {
 
-    background-color: rgb(196, 215, 238);
+    background-color:#ced4da;
         
         margin-top: 2em;
         margin-left: 1em;
@@ -92,7 +95,7 @@ border-radius: 1em;
 .order-sumary{
 
     text-align: center;
-    color: #343d52;
+    color: #284b63;
 
     h1{
         margin-top: .2em;
@@ -122,18 +125,22 @@ button{
     font-size: .9em;
     font-weight: bold;
     border: none;
+    cursor: pointer;
     
     
     
 }
-
-#proceed-btn{
-    background-color:  #333c5a;
+.proceed-btn:hover{
+    background-color: #adb5bd;
+    
+}
+.proceed-btn{
+    background-color: #343a40;
     color: white;
 }
 
-#cancel-btn{
+.cancel-btn{
     background-color:  #dbdada;
-    color: rgb(117, 111, 111);        
+    color: #212529;        
 }
 

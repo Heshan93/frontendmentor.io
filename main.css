@@ -1,6 +1,6 @@
 body {
   margin-left: 0;
-  background: #aacbf1;
+  background: #dee2e6;
 }
 
 .main-body {
@@ -10,6 +10,8 @@ body {
   height: 35em;
   background: white;
   border-radius: 1em;
+  -webkit-box-shadow: inset -1px 3px 8px 5px #464444, 2px 5px 16px 0px #1d3149, 0px 1px 27px 17px rgba(0, 0, 0, 0.61);
+  box-shadow: inset -1px 3px 8px 5px #1a1818, 2px 5px 16px 0px #061b33, 0px 1px 27px 17px rgba(0, 0, 0, 0.61);
 }
 
 .songImg img {
@@ -20,7 +22,7 @@ body {
 }
 
 .music-icon {
-  background-color: #c4d7ee;
+  background-color: #ced4da;
   margin-top: 2em;
   margin-left: 1em;
   margin-bottom: 2em;
@@ -72,7 +74,7 @@ body {
 
 .order-sumary {
   text-align: center;
-  color: #343d52;
+  color: #284b63;
 }
 
 .order-sumary h1 {
@@ -98,15 +100,20 @@ button {
   font-size: .9em;
   font-weight: bold;
   border: none;
+  cursor: pointer;
 }
 
-#proceed-btn {
-  background-color: #333c5a;
+.proceed-btn:hover {
+  background-color: #adb5bd;
+}
+
+.proceed-btn {
+  background-color: #343a40;
   color: white;
 }
 
-#cancel-btn {
+.cancel-btn {
   background-color: #dbdada;
-  color: #756f6f;
+  color: #212529;
 }
 /*# sourceMappingURL=main.css.map */
