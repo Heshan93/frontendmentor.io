@@ -29,6 +29,19 @@ body {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
+  /*
+        h2{
+            font-size: 1.2em;
+            margin-top: .3em;
+            margin-left: 2.5em;
+            margin-bottom: 0;
+
+        }
+        
+        p{
+            display: block;
+        }
+        */
 }
 
 .music-icon img {
@@ -37,17 +50,6 @@ body {
   width: 50px;
   height: 90%;
   border-radius: 1em;
-}
-
-.music-icon h2 {
-  font-size: 1.2em;
-  margin-top: .3em;
-  margin-left: 2.5em;
-  margin-bottom: 0;
-}
-
-.music-icon p {
-  display: block;
 }
 
 .order-sumary {
