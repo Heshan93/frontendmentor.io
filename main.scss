@@ -30,31 +30,61 @@ border-radius: 1em;
         
         margin-top: 2em;
         margin-left: 1em;
+        margin-bottom: 2em;
         border-radius: 1em;
         width: 90%;
         height: 60px;
-        display: inline-flex;
-
-        img{
-            margin-top: .2em;
-            margin-left: .2em;
-            width: 50px;
-            height: 90%;
-            border-radius: 1em;
-        }
-/*
-        h2{
-            font-size: 1.2em;
-            margin-top: .3em;
-            margin-left: 2.5em;
-            margin-bottom: 0;
-
-        }
+        display: flex;
         
-        p{
-            display: block;
+
+
+
+        .music-sub1{
+                
+                img{
+                    margin-top: .2em;
+                    margin-left: .2em;
+                    width: 50px;
+                    height: 90%;
+                    border-radius: 1em;
+                }
+                
         }
-        */
+        .music-sub2{
+
+            
+            margin-left: 2px;
+            width: 36em;
+            margin-top: 0;
+            text-align: center;
+
+            h2{
+                font-size: 1.2em;
+                margin-top: 0;
+                margin-bottom: 0;
+                margin-top: .3em;
+            }
+
+            p{               
+                margin-top: .3em;
+            }
+
+        }
+
+        .music-sub3{
+                
+                margin-left: 2px;
+                width: 100%;
+                text-align: center;
+                padding-top: 1.2em;
+            a{
+                margin: 0;
+                padding: 0;
+                
+            }
+
+        }
+
 }
 
 
