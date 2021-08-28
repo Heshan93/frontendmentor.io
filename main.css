@@ -10,8 +10,8 @@ body {
   height: 35em;
   background: white;
   border-radius: 1em;
-  -webkit-box-shadow: inset -1px 3px 8px 5px #464444, 2px 5px 16px 0px #1d3149, 0px 1px 27px 17px rgba(0, 0, 0, 0.61);
-  box-shadow: inset -1px 3px 8px 5px #1a1818, 2px 5px 16px 0px #061b33, 0px 1px 27px 17px rgba(0, 0, 0, 0.61);
+  -webkit-box-shadow: inset 0px 0px 21px -1px rgba(0, 0, 0, 0.51);
+  box-shadow: inset 0px 0px 21px -1px rgba(0, 0, 0, 0.51);
 }
 
 .songImg img {
