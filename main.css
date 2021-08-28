@@ -19,6 +19,7 @@ body {
   height: 12em;
   border-top-left-radius: 1em;
   border-top-right-radius: 1em;
+  opacity: 0.91;
 }
 
 .music-icon {
