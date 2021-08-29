@@ -1,6 +1,6 @@
 body {
   margin-left: 0;
-  background: #dee2e6;
+  background-image: url(/images/pattern-background-mobile.svg);
 }
 
 .main-body {
@@ -10,8 +10,6 @@ body {
   height: 35em;
   background: white;
   border-radius: 1em;
-  -webkit-box-shadow: inset 0px 0px 21px -1px rgba(0, 0, 0, 0.51);
-  box-shadow: inset 0px 0px 21px -1px rgba(0, 0, 0, 0.51);
 }
 
 .songImg img {
@@ -23,7 +21,7 @@ body {
 }
 
 .music-icon {
-  background-color: #ced4da;
+  background-color: #f5f7ff;
   margin-top: 2em;
   margin-left: 1em;
   margin-bottom: 2em;
@@ -48,6 +46,7 @@ body {
   width: 36em;
   margin-top: 0;
   text-align: center;
+  color: #7280a7;
 }
 
 .music-icon .music-sub2 h2 {
@@ -55,6 +54,7 @@ body {
   margin-top: 0;
   margin-bottom: 0;
   margin-top: .3em;
+  color: #1f2f56;
 }
 
 .music-icon .music-sub2 p {
@@ -73,19 +73,24 @@ body {
   padding: 0;
 }
 
+.music-icon .music-sub3 a:hover {
+  text-decoration: none;
+}
+
 .order-sumary {
   text-align: center;
-  color: #284b63;
 }
 
 .order-sumary h1 {
   margin-top: .2em;
   margin-bottom: .7em;
   font-size: 2.5em;
+  color: #1f2f56;
 }
 
 .order-sumary p {
   margin: 0 2em;
+  color: #7280a7;
 }
 
 .next-btn {
@@ -105,16 +110,20 @@ button {
 }
 
 .proceed-btn:hover {
-  background-color: #adb5bd;
+  opacity: .8;
+}
+
+.cancel-btn:hover {
+  color: #1f2f56;
 }
 
 .proceed-btn {
-  background-color: #343a40;
+  background-color: #3829e0;
   color: white;
 }
 
 .cancel-btn {
-  background-color: #dbdada;
-  color: #212529;
+  background-color: white;
+  color: #7280a7;
 }
 /*# sourceMappingURL=main.css.map */

@@ -1,7 +1,7 @@
 
 body{
     margin-left: 0;
-    background: #dee2e6;
+    background-image: url(/images/pattern-background-mobile.svg);
 
 }
 
@@ -13,9 +13,6 @@ margin-left: 2em;
 height: 35em;
 background: white;
 border-radius: 1em;
-
--webkit-box-shadow: inset 0px 0px 21px -1px rgba(0,0,0,0.51); 
-box-shadow: inset 0px 0px 21px -1px rgba(0,0,0,0.51);
 
 
 }
@@ -33,7 +30,7 @@ box-shadow: inset 0px 0px 21px -1px rgba(0,0,0,0.51);
  
 .music-icon {
 
-    background-color:#ced4da;
+    background-color:hsl(225, 100%, 98%);
         
         margin-top: 2em;
         margin-left: 1em;
@@ -64,12 +61,15 @@ box-shadow: inset 0px 0px 21px -1px rgba(0,0,0,0.51);
             width: 36em;
             margin-top: 0;
             text-align: center;
+            color: hsl(224, 23%, 55%);
 
             h2{
                 font-size: 1.2em;
                 margin-top: 0;
                 margin-bottom: 0;
                 margin-top: .3em;
+                color: hsl(223, 47%, 23%);
+                
             }
 
             p{               
@@ -88,6 +88,10 @@ box-shadow: inset 0px 0px 21px -1px rgba(0,0,0,0.51);
                 margin: 0;
                 padding: 0;
                 
+                
+            }
+            a:hover{
+                text-decoration: none;
             }
 
         }
@@ -99,18 +103,20 @@ box-shadow: inset 0px 0px 21px -1px rgba(0,0,0,0.51);
 .order-sumary{
 
     text-align: center;
-    color: #284b63;
+    
 
     h1{
         margin-top: .2em;
         margin-bottom: .7em;
         font-size: 2.5em;
+        color: hsl(223, 47%, 23%);
         
     }
 
 
     p{
         margin: 0 2em ;
+        color: hsl(224, 23%, 55%);
     }
 
 }
@@ -135,16 +141,19 @@ button{
     
 }
 .proceed-btn:hover{
-    background-color: #adb5bd;
+    opacity: .8;
     
 }
+.cancel-btn:hover{
+    color: hsl(223, 47%, 23%);
+}
 .proceed-btn{
-    background-color: #343a40;
+    background-color: hsl(245, 75%, 52%);
     color: white;
 }
 
 .cancel-btn{
-    background-color:  #dbdada;
-    color: #212529;        
+    background-color:  white;
+    color: hsl(224, 23%, 55%);        
 }
 
